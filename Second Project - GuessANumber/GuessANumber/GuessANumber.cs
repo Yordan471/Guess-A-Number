@@ -77,10 +77,12 @@ namespace GuessANumber
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Invalid input.");
                     }
-                }             
+                }              
             }
 
             Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
     }
 }
